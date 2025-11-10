@@ -1,0 +1,395 @@
+{
+  "version": "0.4",
+  "title": "Landing Page Template",
+  "type": "page",
+  "content": [
+    {
+      "id": "section_hero",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "top": "3rem",
+          "right": "3rem",
+          "bottom": "3rem",
+          "left": "3rem",
+          "unit": "px",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#ffffff"
+      },
+      "elements": [
+        {
+          "id": "column_hero",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "widget_heading_1",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Welcome to Our Amazing Product",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "3rem",
+                  "unit": "px"
+                },
+                "typography_font_weight": "700",
+                "text_color": "#111827",
+                "align": "center",
+                "tag": "h1"
+              }
+            },
+            {
+              "id": "widget_text_1",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Transform your React designs into beautiful Elementor templates with just one command. Fast, reliable, and production-ready.",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "1.25rem",
+                  "unit": "px"
+                },
+                "text_color": "#4b5563",
+                "align": "center"
+              }
+            },
+            {
+              "id": "widget_button_1",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Get Started Now",
+                "link": {
+                  "url": "#",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_background": "classic",
+                "background_color": "#2563eb",
+                "text_color": "#ffffff",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "1.125rem",
+                  "unit": "px"
+                },
+                "typography_font_weight": "600",
+                "padding": {
+                  "top": "1rem",
+                  "right": "2rem",
+                  "bottom": "1rem",
+                  "left": "2rem",
+                  "unit": "px",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "top": "2rem",
+                  "right": "2rem",
+                  "bottom": "2rem",
+                  "left": "2rem",
+                  "unit": "px",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_features",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "top": "3rem",
+          "right": "3rem",
+          "bottom": "3rem",
+          "left": "3rem",
+          "unit": "px",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#f3f4f6"
+      },
+      "elements": [
+        {
+          "id": "column_features_1",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "widget_heading_2",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Key Features",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "2.25rem",
+                  "unit": "px"
+                },
+                "typography_font_weight": "700",
+                "text_color": "#111827",
+                "align": "center",
+                "tag": "h2"
+              }
+            }
+          ]
+        },
+        {
+          "id": "column_features_2",
+          "elType": "column",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "padding": {
+              "top": "1.5rem",
+              "right": "1.5rem",
+              "bottom": "1.5rem",
+              "left": "1.5rem",
+              "unit": "px",
+              "isLinked": true
+            },
+            "border_radius": {
+              "top": "2rem",
+              "right": "2rem",
+              "bottom": "2rem",
+              "left": "2rem",
+              "unit": "px",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "widget_heading_3",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Fast Conversion",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "1.5rem",
+                  "unit": "px"
+                },
+                "typography_font_weight": "600",
+                "text_color": "#111827",
+                "tag": "h3"
+              }
+            },
+            {
+              "id": "widget_text_2",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Convert your entire React project in seconds with our optimized AST parsing engine.",
+                "text_color": "#374151"
+              }
+            }
+          ]
+        },
+        {
+          "id": "column_features_3",
+          "elType": "column",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "padding": {
+              "top": "1.5rem",
+              "right": "1.5rem",
+              "bottom": "1.5rem",
+              "left": "1.5rem",
+              "unit": "px",
+              "isLinked": true
+            },
+            "border_radius": {
+              "top": "2rem",
+              "right": "2rem",
+              "bottom": "2rem",
+              "left": "2rem",
+              "unit": "px",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "widget_heading_4",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Style Mapping",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "1.5rem",
+                  "unit": "px"
+                },
+                "typography_font_weight": "600",
+                "text_color": "#111827",
+                "tag": "h3"
+              }
+            },
+            {
+              "id": "widget_text_3",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Automatically converts Tailwind classes and inline styles to Elementor settings.",
+                "text_color": "#374151"
+              }
+            }
+          ]
+        },
+        {
+          "id": "column_features_4",
+          "elType": "column",
+          "settings": {
+            "background_background": "classic",
+            "background_color": "#ffffff",
+            "padding": {
+              "top": "1.5rem",
+              "right": "1.5rem",
+              "bottom": "1.5rem",
+              "left": "1.5rem",
+              "unit": "px",
+              "isLinked": true
+            },
+            "border_radius": {
+              "top": "2rem",
+              "right": "2rem",
+              "bottom": "2rem",
+              "left": "2rem",
+              "unit": "px",
+              "isLinked": true
+            }
+          },
+          "elements": [
+            {
+              "id": "widget_heading_5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Type Safe",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "1.5rem",
+                  "unit": "px"
+                },
+                "typography_font_weight": "600",
+                "text_color": "#111827",
+                "tag": "h3"
+              }
+            },
+            {
+              "id": "widget_text_4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Built with TypeScript for maximum reliability and developer experience.",
+                "text_color": "#374151"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "section_cta",
+      "elType": "section",
+      "settings": {
+        "layout": "boxed",
+        "padding": {
+          "top": "3rem",
+          "right": "3rem",
+          "bottom": "3rem",
+          "left": "3rem",
+          "unit": "px",
+          "isLinked": true
+        },
+        "background_background": "classic",
+        "background_color": "#2563eb"
+      },
+      "elements": [
+        {
+          "id": "column_cta",
+          "elType": "column",
+          "settings": {},
+          "elements": [
+            {
+              "id": "widget_heading_6",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Ready to Get Started?",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "2.25rem",
+                  "unit": "px"
+                },
+                "typography_font_weight": "700",
+                "text_color": "#ffffff",
+                "align": "center",
+                "tag": "h2"
+              }
+            },
+            {
+              "id": "widget_text_5",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "Install now and start converting your React components",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "1.25rem",
+                  "unit": "px"
+                },
+                "text_color": "#dbeafe",
+                "align": "center"
+              }
+            },
+            {
+              "id": "widget_button_2",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Download CLI",
+                "link": {
+                  "url": "#",
+                  "is_external": false,
+                  "nofollow": false
+                },
+                "background_background": "classic",
+                "background_color": "#ffffff",
+                "text_color": "#2563eb",
+                "typography_typography": "custom",
+                "typography_font_size": {
+                  "size": "1.125rem",
+                  "unit": "px"
+                },
+                "typography_font_weight": "600",
+                "padding": {
+                  "top": "1rem",
+                  "right": "2rem",
+                  "bottom": "1rem",
+                  "left": "2rem",
+                  "unit": "px",
+                  "isLinked": false
+                },
+                "border_radius": {
+                  "top": "2rem",
+                  "right": "2rem",
+                  "bottom": "2rem",
+                  "left": "2rem",
+                  "unit": "px",
+                  "isLinked": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
